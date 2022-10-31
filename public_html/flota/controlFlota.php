@@ -230,6 +230,7 @@ $s=explode(',',$ver);
 				}
 		?>
 	</table>
+    <?php  echo '<label>'.mysqli_num_rows($equipo).' Registros encontrados.</label>'; ?>
 </body>
 </html>
 <?php 
